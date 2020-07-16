@@ -1,0 +1,315 @@
+/*Estilos para la barra de navegación y el banner*/
+
+.header
+{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(imagenes/140.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Degradado de la imagen del header*/
+.header::before
+{
+    content: '';
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(19, 22, 22, 0.3));
+}
+
+.logoNavbar
+{
+    width: 100%;
+    padding: 0px 15px;
+}
+
+.cajalogo
+{
+    width: 200px; /*Se ajusta al tamaño del logo*/
+    display: inline-block;
+    /*visibility: hidden;*/
+}
+
+.logoBanner
+{
+    width: 60%;
+}
+
+/*Color de fondo en barra de navegación*/
+.barranav
+{
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    background-color: rgba(2, 19, 46, 0.9);
+}
+
+.navg a
+{
+    color: rgb(239, 255, 255)!important;
+    font-family: "Open Sans Condensed";
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 15px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navg a:hover
+{
+    background-color: rgba(255, 2, 2, 0.788);
+}
+
+.text-header
+{
+    min-height: 100vh;
+    color: rgb(239, 255, 255);
+    font-family: "Open Sans Condensed";
+    letter-spacing: 5px;
+    font-size: 24px;
+}
+
+.eslogan
+{
+    padding: 0 5.5%;
+}
+
+/*Edición de items del dropdown por separado*/
+.itemsDropdown
+{
+    font-family: "Open Sans Condensed";
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.itemsDropdown:hover
+{
+    font-family: "Open Sans Condensed";
+    color: rgb(194, 0, 0);
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    font-weight: bold;
+}
+
+.dropdown-menu a:hover
+{
+    background-color: rgba(91, 89, 233, 0);
+}
+
+.linkProductos
+{
+    color: rgb(251, 255, 21);
+}
+
+.linkProductos:hover
+{
+    color: rgb(14, 8, 75);
+    text-decoration: none;
+}
+
+.linkCorreo
+{
+    color: rgb(14, 8, 75);
+}
+
+.linkCorreo:hover
+{
+    color: rgb(255, 13, 13);
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*Efecto scroll*/
+html
+{
+    scroll-behavior: smooth;
+}
+
+.seccion1
+{
+    justify-content: center;
+    font-family: "Century Gothic";
+    text-align: center;
+    padding: 0 8%;
+    padding-top: 12%;
+    color: rgb(6, 53, 59);
+}
+
+.seccion1 h1
+{
+    font-size: 40px;
+    padding-top: 10%;
+}
+
+.seccion2
+{
+    justify-content: center;
+    font-family: "Century Gothic";
+    text-align: center;
+    padding: 0 8%;
+    color: rgb(6, 53, 59);
+}
+
+.seccion2 h2, .seccion3 h2
+{
+    padding-top: 12%;
+}
+
+.anterior
+{
+    border-radius: 15px;
+    width: 80%;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.seccion3
+{
+    justify-content: center;
+    font-family: "Century Gothic";
+    text-align: center;
+    padding: 0 8%;
+    padding-top: 12%;
+    color: rgb(6, 53, 59);
+}
+
+.seccion4
+{
+    justify-content: center;
+    font-family: "Century Gothic";
+    text-align: center;
+    padding: 0 8%;
+    padding-top: 12%;
+    color: rgb(6, 53, 59);
+}
+
+div div h1
+{
+    font-size: 60px;
+}
+
+.textoSeccion
+{
+    padding: 2% 16%;
+}
+
+/*Parallax de diferentes secciones*/
+.mainSeccion1
+{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(imagenes/1821.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mainSeccion2
+{
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(imagenes/31799.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mainSeccion3
+{
+    width: 100%;
+    min-height: 70vh;
+    background-image: url(imagenes/blanco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mainSeccion4
+{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(imagenes/azulMarino.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.textoImagenes
+{
+    color: white;
+}
+
+.textoImagenes1
+{
+    color: rgb(6, 53, 59);
+}
+
+/*Colores por secciones*/
+.color2
+{
+    background-color: rgb(245, 42, 69);
+    color: white;
+    padding-top: 11%;
+}
+
+.texto2
+{
+    background-color: rgba(245, 42, 69, 0.562);
+    border-radius: 15px;
+}
+
+.color3
+{
+    background-color: rgb(251, 255, 21);
+    color: rgb(6, 10, 59);
+}
+
+.color4
+{
+    padding-top: 8%;
+    color: rgb(2, 19, 46);
+}
+
+.texto3
+{
+    background-color: rgba(6, 53, 59, 0.397);
+    border-radius: 15px;
+}
+
+.seccion4
+{
+    background-color: rgb(2, 19, 46);
+    color: rgb(239, 255, 255);
+    padding-top: 3%;
+    padding-bottom: 1%;
+    margin-bottom: 0;
+}
+
+
+/*
+Arreglar la transición de aparición de logo en navbar
+Arreglar la marca que se deja al oprimir la navbar en dispositivos pequeños
+Arreglar la posición del botón qur cambia cuando aparece el logo (con alguna caja que sea invisible)
+Cambiar de imagen al ser resposivo, para que se adapte al dispositivo
+*/
+ 
+/*
+    Enlaces de correos
+    Iconos de font awesome
+    Optimizar imágenes
+ */

@@ -4,35 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAESMESA</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    
+    <title>MAESMESA - El arte de fabricar productos para el pintor</title>
+    <link rel="icon" href="imagenes/Favico.ico">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Tipografía de preferencia -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header class="header">
         <div class="barranav">
-            <div class="container cajanav">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="cajalogo">
-                        <img src="imagenes/logo.jpg" alt="" class="logogussana">
+                        <img src="imagenes/MAESMESAwhite.png" alt="" class="logoNavbar">
                     </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        
-                        <div class="navg navbar-nav w-100 justify-content-center">
-                            <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="#servicios">Nosotros</a>
-                            <a class="nav-item nav-link" href="#productos">Productos</a>
-                            <a class="nav-item nav-link" href="#contacto">Contacto</a>
-                        </div>
+                    <div class="collapse navbar-collapse w-100 justify-content-center navg" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Inicio </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#quienes">¿Quiénes somos?</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Productos
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#"><div class="itemsDropdown">Item 1</div></a>
+                                    <a class="dropdown-item" href="#"><div class="itemsDropdown">Item 2</div></a>
+                                    <a class="dropdown-item" href="#"><div class="itemsDropdown">Item 3</div></a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
                     </div>
                 </nav>
             </div>
@@ -41,73 +57,107 @@
         <div class="text-header d-flex align-items-end">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8">
-                        <img src="imagenes/logo.jpg" alt="" class="gussana">
+                    <div class="col-sm-10" id="logoBanner">
+                        <img src="imagenes/MAESMESA.png" alt="" class="logoBanner">
+                        <p><span class="eslogan"> </span></p>
+                    </div>
+                    <div class="col-sm-4 cajaredes">
+                        <a href="#" class="redes"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" class="redes"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </header>    
 
-    <div class="separador">
-        <div class="separadorInvisible">
-            Separador
+    <div id="quienes">
+        <div class="seccion1">
+            <h1>Somos calidad y profesionalismo</h1>
+            <div class="textoSeccion">
+                <p>Más de diez años respaldan nuestra experiencia brindando imagen publicitaria
+                    útil y atractiva. Proveemos productos y herramientas complementarias para la
+                    industria pinturera, automotriz y ferretería en general.
+                </p>
+            </div>
         </div>
     </div>
 
-    <div class="separador">
-        <div class="separadorInvisible">
-            Separador
+    <div class="mainSeccion1">
+        <div class="seccion1 textoImagenes1" id="quienes1">
+            <h1>Conoce nuestro equipo</h1>
+            <div class="textoSeccion">
+                <h4>Aquí va un posible video institucional</h4>
+            </div>
         </div>
     </div>
 
-    <div class="equipo d-flex align-items-center justify-content-center">
-        <div class="equipo1">
-            <div class="tituloEquipo"><span>Nuestro equipo</span></div>
-            <img src="imagenes/equipo.jpg" alt="" class="imagenEquipo">
+    <div id="productos">
+        <div class="seccion2 color2">
+            <h2>Nuestros Productos</h2>
+            <div class="textoSeccion">
+                <p>Contamos con una amplia variedad de herramientas y complementos de excelente calidad, ideales
+                    para pinturas, impermeabilizantes, aceites, pegamentos, tintas, productos alimenticios, etc., 
+                    en las cuales podemos plasmar tu marca para obtener un posicionamiento de excelente calidad.
+                </p>
+                <br>
+                <h5><a href="#" class="linkProductos">Consulta nuestro catálogo</a></h5>
+            </div>
         </div>
     </div>
 
-    <div class="separador">
-        <div class="separadorInvisible">
-            Separador
+    <div class="mainSeccion2">
+        <div class="seccion2 textoImagenes">
+            <img src="imagenes/principal.jpg" alt="" class="anterior">
+            <br><br><br><br>
         </div>
     </div>
 
-    <div class="separador">
-        <div class="separadorInvisible">
-            Separador
+    <div id="contacto">
+        <div class="seccion3 color3">
+            <h2>Nos encantaría escucharte y leerte</h2>
+            <div class="textoSeccion">
+                <h4><i>Puedes llamarnos o escribirnos y solicitar información o una cotización</i></h4>
+                <br>
+                <br>
+                <h4><b>CDMX: </b>Tel.: (55) 55 55 54 81, 46 18 68 91 y 46 18 68 99</h4>
+                <div class="correo">
+                    <h6><a href="#" class="linkCorreo"><b>direccion@maesmesa.com.mx</b></a></h6>
+                </div>
+                <br>
+                <h4><b>Guadalajara: </b>Tel.: (55) 3032 2173</h4>
+                <div class="correo">
+                    <h6><a href="#" class="linkCorreo"><b>ventas@maesmesa.com.mx</b></a></h6>
+                </div>
+                <br>
+            </div>
         </div>
     </div>
 
-    <div class="servicios" id="servicios">
-        <br><br><br>
-        NOSOTROS
-        <br><br><br>
+    <div class="mainSeccion3">
+        <div class="seccion3 textoImagenes color4">
+            <h2>¡Visita nuestras Redes Sociales!</h2>
+            <div class="textoSeccion texto3">
+                <h4>Aquí va el contacto en Facebook</h4>
+                <h4>Aquí va el contacto en Instagram</h4>    
+            </div>
+        </div>
     </div>
 
-    <div class="productos" id="productos">
-        <br><br><br>
-        PRODUCTOS
-        <br><br><br>
+    <div class="footer">
+        <div class="seccion4 color4">
+            <h6>Ciudad de México 2020. <i>Derechos Reservados.</i> <b>MAESMESA</b></h6>
+        </div>
     </div>
 
-    <div class="galeria" id="galeria">
-        <br><br><br>
-        GALERÍA
-        <br><br><br>
-    </div>
-
-    <div class="contacto" id="contacto">
-        <br><br><br>
-        CONTACTO
-        <br><br><br>
-    </div>
-
-    
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
     <script src="js/main.js"></script>
 </body>
