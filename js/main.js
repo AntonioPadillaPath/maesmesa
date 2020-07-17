@@ -19,14 +19,11 @@ $(document).ready(function()
     });
 });
 
-
 let primero = document.getElementById("logoBanner");
-let sec1 = document.getElementById("quienes1");
 
 window.addEventListener('scroll', function()
 {
     var value = window.scrollY;
 
     primero.style.top = value * -0.3 + 'px';
-    sec1.style.top = value * -0.5 + 'px';
 })

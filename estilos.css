@@ -79,6 +79,7 @@
 .eslogan
 {
     padding: 0 5.5%;
+    visibility: hidden;
 }
 
 /*Edición de items del dropdown por separado*/
@@ -158,6 +159,7 @@ html
     font-family: "Century Gothic";
     text-align: center;
     padding: 0 8%;
+    padding-top: 6%;
     color: rgb(6, 53, 59);
 }
 
@@ -259,6 +261,16 @@ div div h1
     color: rgb(6, 53, 59);
 }
 
+.fas1
+{
+    font-size: 150px;
+}
+
+.fas2
+{
+    font-size: 100px;
+}
+
 /*Colores por secciones*/
 .color2
 {
@@ -281,7 +293,7 @@ div div h1
 
 .color4
 {
-    padding-top: 8%;
+    padding-top: 1%;
     color: rgb(2, 19, 46);
 }
 
@@ -289,6 +301,23 @@ div div h1
 {
     background-color: rgba(6, 53, 59, 0.397);
     border-radius: 15px;
+}
+
+.redes
+{
+    font-size: 100px;
+}
+
+.texto3 a
+{
+    color: rgb(38, 40, 41);
+    display: inline-block;
+    padding: 0 10%;
+}
+
+.texto3 a:hover
+{
+    color: rgb(255, 255, 255);
 }
 
 .seccion4
@@ -303,12 +332,10 @@ div div h1
 
 /*
 Arreglar la transición de aparición de logo en navbar
-Arreglar la marca que se deja al oprimir la navbar en dispositivos pequeños
-Arreglar la posición del botón qur cambia cuando aparece el logo (con alguna caja que sea invisible)
 Cambiar de imagen al ser resposivo, para que se adapte al dispositivo
+que el icono no deje la marca y la barra se cierre al escoger la opción
 */
  
 /*
     Enlaces de correos
-    Iconos de font awesome
  */
