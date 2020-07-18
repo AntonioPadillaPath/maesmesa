@@ -329,14 +329,52 @@ div div h1
     margin-bottom: 0;
 }
 
+/*----------------------------------------------------------------------------------------------------*/
+/*Edición de la página "Productos"*/
+
+.header2
+{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(imagenes/tinified/blanco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cajalogo2
+{
+    width: 200px; /*Se ajusta al tamaño del logo*/
+    display: inline-block;
+    /*visibility: hidden;*/
+}
+
+.galeria
+{
+    background-color: rgba(6, 53, 59, 0.397);
+    padding: 1%;
+    border-radius: 10px 10px 0 0;
+}
+
+.galeriaItem
+{
+    color: rgb(6, 10, 59);
+    font-family: "Century Gothic";
+}
+
+.galeriaItem:hover
+{
+    color: white;
+}
+
 
 /*
-Arreglar la transición de aparición de logo en navbar
-Cambiar de imagen al ser resposivo, para que se adapte al dispositivo
-que el icono no deje la marca y la barra se cierre al escoger la opción
-*/
- 
-/*
-    Enlaces de correos
-    Cargar las imágenes por lotes
+
+***Arreglar la transición de aparición de logo en navbar
+***Cambiar de imagen al ser resposivo, para que se adapte al dispositivo
+***que el icono no deje la marca y la barra se cierre al escoger la opción
+***Enlaces de correos
+***Cargar las imágenes por lotes en el catálogo
+
  */
