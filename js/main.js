@@ -1,3 +1,5 @@
+console.log("Este es un proyecto de Antonio Padilla Torres. CDMX Julio 2020")
+
 $(document).ready(function()
 {
     $(".cajalogo").hide();

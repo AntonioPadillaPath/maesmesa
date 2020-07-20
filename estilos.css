@@ -343,6 +343,17 @@ div div h1
     background-attachment: fixed;
 }
 
+.header3
+{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(imagenes/tinified/140.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .cajalogo2
 {
     width: 200px; /*Se ajusta al tamaño del logo*/
@@ -364,6 +375,118 @@ div div h1
 }
 
 .galeriaItem:hover
+{
+    color: white;
+}
+
+.galeria3
+{
+    background-color: rgba(167, 11, 11, 0.548);
+    padding: 1%;
+    border-radius: 10px 10px 0 0;
+}
+
+.galeriaItem3
+{
+    color: rgb(92, 3, 3);
+    font-family: "Century Gothic";
+}
+
+.galeriaItem3:hover
+{
+    color: white;
+}
+
+.titulo
+{
+    color: rgb(6, 10, 59);
+    font-family: "Century Gothic";
+    text-align: center;
+}
+
+.mainContainer
+{
+    background-color: rgba(255, 255, 255, 0);
+    margin: 2% 0;
+}
+
+.itemIMG
+{
+    width: 45%;
+    margin: 0 2%;
+    border-radius: 10px;
+}
+
+.medidas
+{
+    font-family: "Open Sans Condensed";
+}
+
+.medidasIndividuales
+{
+    font-family: "Open Sans Condensed";
+    background-color: rgba(6, 53, 59, 0.397);
+    display: inline-block;
+    padding: 1%;
+    width: 45%;
+    position: absolute;
+}
+
+.especificaciones
+{
+    font-family: "Open Sans Condensed";
+    background-color: rgba(6, 53, 59, 0.397);
+    border-radius: 10px;
+    margin: 2% 0;
+}
+
+.especificaciones p
+{
+    color: rgb(255, 255, 255);
+}
+
+.especificaciones p h2 .colores
+{
+    font-family: "Open Sans Condensed";
+    color: white;
+}
+
+.colorAzul1
+{
+    color: rgb(4, 14, 150);
+}
+
+.colorAzul2
+{
+    color: rgb(71, 188, 218);
+}
+
+.colorRojo
+{
+    color: rgb(255, 13, 13);
+}
+
+.colorAmarillo
+{
+    color: rgb(255, 239, 8);
+}
+
+.colorVerde
+{
+    color: rgb(91, 207, 44);
+}
+
+.colorNegro
+{
+    color: black;
+}
+
+.colorGris
+{
+    color: grey;
+}
+
+.colorBlanco
 {
     color: white;
 }
