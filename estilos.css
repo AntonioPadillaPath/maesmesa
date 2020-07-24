@@ -4,7 +4,7 @@
 {
     width: 100%;
     min-height: 100vh;
-    background-image: url(imagenes/tinified/140.jpg);
+    background-image: url(imagenes/140al100.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -210,7 +210,7 @@ div div h1
 {
     width: 100%;
     min-height: 100vh;
-    background-image: url(imagenes/tinified/1821.jpg);
+    background-image: url(imagenes/1821al100.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -221,7 +221,7 @@ div div h1
 {
     width: 100%;
     min-height: 50vh;
-    background-image: url(imagenes/tinified/azulMarino.jpg);
+    background-image: url(imagenes/azulMarinoal100.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -232,7 +232,7 @@ div div h1
 {
     width: 100%;
     min-height: 70vh;
-    background-image: url(imagenes/tinified/blanco.jpg);
+    background-image: url(imagenes/blancoal100.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -243,7 +243,7 @@ div div h1
 {
     width: 100%;
     min-height: 100vh;
-    background-image: url(imagenes/tinified/azulMarino.jpg);
+    background-image: url(imagenes/azulMarinoal100.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -335,7 +335,7 @@ div div h1
 {
     width: 100%;
     min-height: 100vh;
-    background-image: url(imagenes/tinified/blanco.jpg);
+    background-image: url(imagenes/blancoal100.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -346,7 +346,7 @@ div div h1
 {
     width: 100%;
     min-height: 100vh;
-    background-image: url(imagenes/tinified/140.jpg);
+    background-image: url(imagenes/140al100.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -512,18 +512,28 @@ textarea
     font-family: "Century Gothic";
 }
 
+/*Link para llamar por teléfono*/
+
+.btnllamar
+{
+    color: rgb(6, 10, 59);
+}
+
+.btnllamar:hover
+{
+    color: rgb(255, 13, 13);
+    text-decoration: none;
+}
+
+
 
 /*
 
 ***Arreglar la transición de aparición de logo en navbar
 ***que el icono no deje la marca y la barra se cierre al escoger la opción
-***Enlaces de correos
 ***Arreglar las imágenes de productos en la primer página
 
-***Arreglar foto de rasero para que no se vea tan larga
 *** Comprimir las imágenes cuando haya internet
-***Poner telefonos para marcar
 ***Hacer la ventana de correo funcional
-***Enlazar las páginas y redes sociales
 
  */
