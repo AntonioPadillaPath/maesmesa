@@ -7,12 +7,14 @@
     <title>MAESMESA - El arte de fabricar productos para el pintor</title>
     <link rel="icon" href="imagenes/Favico.ico">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- Fonts -->
     <script src="https://kit.fontawesome.com/dd29068953.js" crossorigin="anonymous"></script>
     <!-- Tipografía de preferencia -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -25,8 +27,9 @@
                         <img src="imagenes/MAESMESAwhite.png" alt="" class="logoNavbar">
                     </div>
                     <div class="invisible"></div>
-                    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
+                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse w-100 justify-content-center navg" id="navbarNavDropdown">
@@ -43,9 +46,25 @@
                                     Productos
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="productos.html"><div class="itemsDropdown">Palas</div></a>
-                                    <a class="dropdown-item" href="#"><div class="itemsDropdown">Destapadores</div></a>
-                                    <a class="dropdown-item" href="#"><div class="itemsDropdown">Item 3</div></a>
+                                    <a class="dropdown-item" href="palas.html">
+                                        <div class="itemsDropdown">Palas</div>
+                                    </a>
+                                    <a class="dropdown-item" href="destapadores.html">
+                                        <div class="itemsDropdown">Destapadores</div>
+                                    </a>
+                                    <a class="dropdown-item" href="filtros.html">
+                                        <div class="itemsDropdown">Coladores</div>
+                                    </a>
+                                    <a class="dropdown-item" href="calibrador.html">
+                                        <div class="itemsDropdown">Calibrador</div>
+                                    </a>
+                                    <a class="dropdown-item" href="botes.html">
+                                        <div class="itemsDropdown">Jarras y Botes</div>
+                                    </a>
+                                    <a class="dropdown-item" href="#productos">
+                                        <div class="itemsDropdown"><b>Vista General</b></div>
+                                    </a>
+
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -68,7 +87,7 @@
                 </div>
             </div>
         </div>
-    </header>    
+    </header>
 
     <div id="quienes">
         <div class="seccion1">
@@ -98,18 +117,26 @@
             <h2>Nuestros Productos</h2>
             <div class="textoSeccion">
                 <p>Contamos con una amplia variedad de herramientas y complementos de excelente calidad, ideales
-                    para pinturas, impermeabilizantes, aceites, pegamentos, tintas, productos alimenticios, etc., 
+                    para pinturas, impermeabilizantes, aceites, pegamentos, tintas, productos alimenticios, etc.,
                     en las cuales podemos plasmar tu marca para obtener un posicionamiento de excelente calidad.
                 </p>
                 <br>
-                <h5><a href="#" class="linkProductos">Consulta nuestro catálogo</a></h5>
+                <h5><a href="palas.html" class="linkProductos">Consulta nuestro catálogo</a></h5>
             </div>
         </div>
     </div>
 
     <div class="mainSeccion2">
-        <div class="seccion2 textoImagenes">
-            <img src="imagenes/principal.jpg" alt="" class="anterior">
+        <div class="seccion2 textoImagenes container">
+            <!-- <img src="imagenes/principal.jpg" alt="" class="anterior"> -->
+            <div class="row">
+                <img src="imagenes/productos/img1.jpg" alt="" class="col-xs-6 col-md-4 col-lg-2">
+                <img src="imagenes/productos/img2.jpg" alt="" class="col-xs-6 col-md-4 col-lg-2">
+                <img src="imagenes/productos/img3.jpg" alt="" class="col-xs-6 col-md-4 col-lg-2">
+                <img src="imagenes/productos/img4.jpg" alt="" class="col-xs-6 col-md-4 col-lg-2">
+                <img src="imagenes/productos/img5.jpg" alt="" class="col-xs-6 col-md-4 col-lg-2">
+                <img src="imagenes/productos/img6.jpg" alt="" class="col-xs-6 col-md-4 col-lg-2">
+            </div>
             <br><br><br><br>
         </div>
     </div>
@@ -139,19 +166,65 @@
         <div class="seccion3 textoImagenes color4">
             <h2>¡Visita nuestras Redes Sociales!</h2>
             <div class="textoSeccion texto3">
-                <a href=""><h1><i class="fab fa-facebook-square redes"></i></h1></a>
-                <a href=""><h1><i class="fab fa-instagram redes"></i></h1></a>
+                <a href="">
+                    <h1><i class="fab fa-facebook-square redes"></i></h1>
+                </a>
+                <a href="">
+                    <h1><i class="fab fa-instagram redes"></i></h1>
+                </a>
             </div>
         </div>
     </div>
 
-    <div class="footer">
-        <div class="seccion4 color4">
-            <h6>Ciudad de México 2020. <i class="far fa-registered"></i><i> Derechos Reservados.</i> <b>MAESMESA</b></h6>
+    <!--
+
+    <a href="" data-target="#exampleModal" data-toggle="modal">Ejemplo</a>
+
+ 
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><img src="imagenes/MAESMESA.png" alt=""
+                            class="logoContacto"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                   
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                        <br>
+                        <br>
+                        <input type="text" name="correo" placeholder="Correo" required>
+                        <br>
+                        <br>
+                        <input type="text" name="telefono" placeholder="Teléfono" required>
+                        <br>
+                        <br>
+                        <textarea name="mensaje" placeholder="Escribe aquí tu mensaje, dudas o requerimientos..."
+                            required></textarea>
+
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" value="ENVIAR" class="btn btn-primary boton" id="boton"></input>
+                </div>
+                </form>
+            </div>
         </div>
     </div>
 
-    
+-->
+
+    <div class="footer">
+        <div class="seccion4 color4">
+            <h6>Ciudad de México 2020. <i class="far fa-registered"></i><i> Derechos Reservados.</i> <b>MAESMESA</b>
+            </h6>
+        </div>
+    </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
