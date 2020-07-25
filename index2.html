@@ -188,6 +188,7 @@
     <a href="" data-target="#exampleModal" data-toggle="modal">Ejemplo</a>
 
     <!-- Modal -->
+    <form action="enviar.php" method="POST">
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog">
@@ -200,7 +201,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action="enviar.php">
+                    
                         <input type="text" name="nombre" placeholder="Nombre" required>
                         <br>
                         <br>
@@ -212,14 +213,16 @@
                         <br>
                         <textarea name="mensaje"
                             placeholder="Escribe aquí tu mensaje, dudas o requerimientos..."></textarea>
-                    </form>
-                </div>
+                    
                 <div class="modal-footer">
-                    <button type="submit" value="ENVIAR" class="btn btn-primary boton">Enviar</button>
+                    <input type="submit" value="ENVIAR" class="btn btn-primary boton">Enviar</input>
                 </div>
+            
+            </div>
             </div>
         </div>
     </div>
+</form>
 
     <div class="footer">
         <div class="seccion4 color4">

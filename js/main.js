@@ -1,5 +1,14 @@
 console.log("Este es un proyecto de Antonio Padilla Torres. CDMX Julio 2020")
 
+//Función para cerrar la navbar cuando se dé click
+$('.navbar-nav li a').on('click', function(){
+    if(!$( this ).hasClass('dropdown-toggle')){
+        $('.navbar-collapse').collapse('hide');
+    }
+});
+
+
+//función para esconder el logo en la navbar y luego mostrarlo
 $(document).ready(function()
 {
     $(".cajalogo").hide();
@@ -20,6 +29,9 @@ $(document).ready(function()
         }
     });
 });
+
+
+//función para desplazar cajas con profundidad
 
 let primero = document.getElementById("logoBanner");
 
