@@ -130,12 +130,12 @@
         <div class="seccion2 textoImagenes container">
             <!-- <img src="imagenes/principal.jpg" alt="" class="anterior"> -->
             <div class="row">
-                <img src="imagenes/productos/img1.jpg" alt="" class="col-xs-6 col-md-4 col-lg-2">
-                <img src="imagenes/productos/img2.jpg" alt="" class="col-xs-6 col-md-4 col-lg-2">
-                <img src="imagenes/productos/img3.jpg" alt="" class="col-xs-6 col-md-4 col-lg-2">
-                <img src="imagenes/productos/img4.jpg" alt="" class="col-xs-6 col-md-4 col-lg-2">
-                <img src="imagenes/productos/img5.jpg" alt="" class="col-xs-6 col-md-4 col-lg-2">
-                <img src="imagenes/productos/img6.jpg" alt="" class="col-xs-6 col-md-4 col-lg-2">
+                <img src="imagenes/productos/img1op.png" alt="" class="col-xs-6 col-md-4 col-lg-2">
+                <img src="imagenes/productos/img2op.png" alt="" class="col-xs-6 col-md-4 col-lg-2">
+                <img src="imagenes/productos/img3op.png" alt="" class="col-xs-6 col-md-4 col-lg-2">
+                <img src="imagenes/productos/img4op.png" alt="" class="col-xs-6 col-md-4 col-lg-2">
+                <img src="imagenes/productos/img5op.png" alt="" class="col-xs-6 col-md-4 col-lg-2">
+                <img src="imagenes/productos/img6op.png" alt="" class="col-xs-6 col-md-4 col-lg-2">
             </div>
             <br><br><br><br>
         </div>
@@ -149,17 +149,23 @@
                 <br>
                 <br>
                 <h4><b>CDMX: </b>Tel.: <a href="tel:5555555481" class="btnllamar"
-                    onclick="return (navigator.userAgent.match(/Android | iPhone | movile / i)) != null;">(55) 55 55 54 81</a>, <a href="tel:46186891" class="btnllamar"
-                    onclick="return (navigator.userAgent.match(/Android | iPhone | movile / i)) != null;">46 18 68 91</a> y <a href="tel:46186899" class="btnllamar"
-                    onclick="return (navigator.userAgent.match(/Android | iPhone | movile / i)) != null;">46 18 68 99</a></h4>
+                        onclick="return (navigator.userAgent.match(/Android | iPhone | movile / i)) != null;">(55) 55 55
+                        54 81</a>, <a href="tel:46186891" class="btnllamar"
+                        onclick="return (navigator.userAgent.match(/Android | iPhone | movile / i)) != null;">46 18 68
+                        91</a> y <a href="tel:46186899" class="btnllamar"
+                        onclick="return (navigator.userAgent.match(/Android | iPhone | movile / i)) != null;">46 18 68
+                        99</a></h4>
                 <div class="correo">
-                    <h6><a href="#" class="linkCorreo"><b>direccion@maesmesa.com.mx</b></a></h6>
+                    <h6><a href="#" class="linkCorreo" data-target="#exampleModal"
+                            data-toggle="modal"><b>direccion@maesmesa.com.mx</b></a></h6>
                 </div>
                 <br>
                 <h4><b>Guadalajara: </b>Tel.: <a href="tel:5530322173" class="btnllamar"
-                onclick="return (navigator.userAgent.match(/Android | iPhone | movile / i)) != null;">(55) 3032 2173</a></h4>
+                        onclick="return (navigator.userAgent.match(/Android | iPhone | movile / i)) != null;">(55) 3032
+                        2173</a></h4>
                 <div class="correo">
-                    <h6><a href="#" class="linkCorreo"><b>ventas@maesmesa.com.mx</b></a></h6>
+                    <h6><a href="#" class="linkCorreo" data-target="#exampleModal2"
+                        data-toggle="modal"><b>ventas@maesmesa.com.mx</b></a></h6>
                 </div>
                 <br>
             </div>
@@ -170,7 +176,7 @@
         <div class="seccion3 textoImagenes color4">
             <h2>¡Visita nuestras Redes Sociales!</h2>
             <div class="textoSeccion texto3">
-                <a href="">
+                <a href="https://www.facebook.com/Maesmesa-1268935969856115">
                     <h1><i class="fab fa-facebook-square redes"></i></h1>
                 </a>
                 <a href="">
@@ -180,28 +186,21 @@
         </div>
     </div>
 
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Launch demo modal
-    </button>
+    <!-- Modal CDMX-->
 
-    <a href="" data-target="#exampleModal" data-toggle="modal">Ejemplo</a>
-
-    <!-- Modal -->
-    <form action="enviar.php" method="POST">
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"><img src="imagenes/MAESMESA.png" alt=""
-                            class="logoContacto"></h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    
+                <form action="enviar.php" method="post">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"><img src="imagenes/MAESMESA.png" alt=""
+                                class="logoContacto"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
                         <input type="text" name="nombre" placeholder="Nombre" required>
                         <br>
                         <br>
@@ -211,18 +210,52 @@
                         <input type="text" name="telefono" placeholder="Teléfono" required>
                         <br>
                         <br>
-                        <textarea name="mensaje"
-                            placeholder="Escribe aquí tu mensaje, dudas o requerimientos..."></textarea>
-                    
-                <div class="modal-footer">
-                    <input type="submit" value="ENVIAR" class="btn btn-primary boton">Enviar</input>
-                </div>
-            
-            </div>
+                        <textarea name="mensaje" placeholder="Escribe aquí tu mensaje, dudas o requerimientos..."
+                            required></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" value="ENVIAR" class="btn btn-primary boton" id="boton"></input>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-</form>
+
+        <!-- Modal GDL-->
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form action="enviarGDL.php" method="post">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"><img src="imagenes/MAESMESA.png" alt=""
+                                class="logoContacto"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                        <br>
+                        <br>
+                        <input type="text" name="correo" placeholder="Correo" required>
+                        <br>
+                        <br>
+                        <input type="text" name="telefono" placeholder="Teléfono" required>
+                        <br>
+                        <br>
+                        <textarea name="mensaje" placeholder="Escribe aquí tu mensaje, dudas o requerimientos..."
+                            required></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" value="ENVIAR" class="btn btn-primary boton" id="boton"></input>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
 
     <div class="footer">
         <div class="seccion4 color4">
@@ -231,6 +264,7 @@
         </div>
     </div>
 
+    <script>alert("¡Correo enviado exitosamente!")</script>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
