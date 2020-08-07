@@ -38,7 +38,11 @@
 
 .logoBanner
 {
-    width: 60%;
+    width: 70%;
+    /*background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgb(82, 81, 81);*/
 }
 
 /*Color de fondo en barra de navegación*/
@@ -60,6 +64,7 @@
     text-align: center;
     font-weight: bold;
     letter-spacing: 2px;
+    transition: all 0.2s;
 }
 
 .navg a:hover
@@ -72,7 +77,7 @@
     min-height: 100vh;
     color: rgb(239, 255, 255);
     font-family: "Open Sans Condensed";
-    letter-spacing: 5px;
+    
     font-size: 24px;
 }
 
@@ -80,6 +85,19 @@
 {
     padding: 0 5.5%;
     visibility: hidden;
+}
+
+/*Enlace de idioma*/
+.idioma
+{
+    color: white;
+    transition: all 0.2s;
+}
+
+.idioma:hover
+{
+    color: rgb(6, 10, 59);
+    text-decoration: none;
 }
 
 /*Edición de items del dropdown por separado*/
@@ -110,6 +128,7 @@
 .linkProductos
 {
     color: rgb(251, 255, 21);
+    transition: all 0.2s;
 }
 
 .linkProductos:hover
@@ -121,6 +140,7 @@
 .linkCorreo
 {
     color: rgb(14, 8, 75);
+    transition: all 0.2s;
 }
 
 .linkCorreo:hover
@@ -305,6 +325,7 @@ div div h1
 .redes
 {
     font-size: 100px;
+    transition: all 0.2s;
 }
 
 .texto3 a
@@ -414,6 +435,11 @@ div div h1
     width: 45%;
     margin: 0 2%;
     border-radius: 10px;
+}
+
+.itemIMG2 /*Pala de Madera grande*/
+{
+    padding: 80px;
 }
 
 .medidas
