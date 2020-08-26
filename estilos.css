@@ -191,7 +191,7 @@ html
 .anterior
 {
     border-radius: 15px;
-    width: 80%;
+    width: 65%;
     min-width: 50px;
 }
 
@@ -547,10 +547,11 @@ textarea
 }
 
 
-
 /*
 
 ***Arreglar la transición de aparición de logo en navbar
 ***logo que no aparezca al principio en navbar
+
+***cambiar algunos fondos de la galería
 
  */
