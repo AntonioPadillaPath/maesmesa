@@ -291,6 +291,11 @@ div div h1
 }
 
 /*Colores por secciones*/
+.color1
+{
+    background-color: rgb(248, 246, 246);
+}
+
 .color2
 {
     background-color: rgb(245, 42, 69);
